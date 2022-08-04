@@ -1,0 +1,39 @@
+.settingImg {
+  background-image: url("https://i.pinimg.com/originals/bc/f3/7a/bcf37a76e628fd73d8a70efe4426711d.jpg");
+  background-repeat: round;
+  background-size: contain;
+}
+
+.screen-header span {
+  font-family: var(--extra-font);
+  font-size: 20px;
+}
+
+.settings-list {
+  padding: var(--horizontal-space);
+  margin-top: 80px;
+}
+
+.settings-list__icons {
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.settings-list__icons:nth-child(3) {
+  border-bottom: none;
+}
+
+.settings-list__icons i {
+  margin-right: 15px;
+}
+
+.settings-list__icons span {
+  font-weight: 600;
+}
+
+.horizontal-divider {
+  height: 1px;
+  width: 100%;
+  background-color: #ececec;
+  margin: 10px 0;
+}

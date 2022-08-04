@@ -1,0 +1,136 @@
+.chat-screen {
+  position: fixed;
+  display: flex;
+  width: 375px;
+  box-sizing: border-box;
+}
+
+.timeline {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 10px 0;
+}
+
+.timeline div {
+  background-color: var(--red);
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.catting-box__talkbox {
+  display: flex;
+}
+
+.chatting-box {
+  padding: var(--horizontal-space);
+}
+
+.talkbox-conversation__text {
+  display: flex;
+  align-items: flex-end;
+}
+
+.talkbox-conversation__text span {
+  font-size: 12px;
+  margin-left: 3px;
+}
+
+.conversation-text__colorbox {
+  background-color: white;
+  border-radius: 14px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.catting-box__talkbox:nth-child(2) {
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+
+.conversation-text__colorbox:nth-child(2) {
+  background-color: var(--yellow);
+}
+
+.keyboard {
+  width: 375px;
+  height: 300px;
+  background-color: rgba(223, 202, 176, 0.877);
+  position: fixed;
+  bottom: 0px;
+}
+
+.keyboard-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.keyboard-header__column {
+  border: 1px solid black;
+  width: 85%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 0;
+}
+
+.keyboard-header__column input {
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.keyboard-header__column i:last-child {
+  color: var(--yellow);
+  margin-left: -15px;
+}
+
+.keyboard-array {
+  background-color: rgba(226, 195, 111, 0.5);
+  height: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eachkeyboard {
+  width: 33px;
+  height: 45px;
+  background-color: white;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2px;
+  font-size: 18px;
+}
+
+.keyboard-array__column {
+  display: flex;
+  margin-bottom: 7px;
+}
+
+#arrowUp-icon,
+#backspace-icon {
+  width: 46px;
+  background-color: lightgray;
+  margin: 0 6px;
+}
+
+#number-icon,
+#globe-icon,
+#return-icon {
+  background-color: lightgray;
+}
+
+#space-icon {
+  width: 171px;
+}
+
+#return-icon {
+  width: 75px;
+}
